@@ -1,0 +1,19 @@
+{
+  "name": "jibble",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "goce popovski",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.2.0",
+    "express": "^4.16.2",
+    "express-throttle": "^2.0.0",
+    "node-fetch": "^1.7.3",
+    "redis": "^2.8.0",
+    "request": "^2.83.0"
+  }
+}
