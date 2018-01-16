@@ -23,7 +23,7 @@ const router = express.Router();
 //auth all requests, if valid token continue
 router.use(function (req, res, next) {
     if (!req.headers.authorization || req.headers.authorization != "Bearer af24353tdsfw") {
-        //return res.status(501).json({ error: 'No credentials sent!' });
+        return res.status(501).json({ error: 'No credentials sent!' });
     }
 
     next();
